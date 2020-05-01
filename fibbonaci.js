@@ -1,6 +1,5 @@
-<script type="text/javascript">
 
-		 	function fib(n){
+function fib(n){
 	var arg = [0, n];
 
 	while(n <= 200){
@@ -12,8 +11,6 @@
 	return arg;
 }
 
-  fib(4);
-  console.log(fib(4));
+//calling the fib function
 
-  
-	</script>
+  console.log(fib(4));
